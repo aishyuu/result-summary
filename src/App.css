@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'HankenGrotesk';
+  src: url(./assets/fonts/HankenGrotesk-Medium.ttf);
+}
+@font-face {
+  font-family: 'HankenGrotesk Bold';
+  src: url(./assets/fonts/HankenGrotesk-Bold.ttf);
+}
+@font-face {
+  font-family: 'HankenGrotesk Extra Bold';
+  src: url(./assets/fonts/HankenGrotesk-ExtraBold.ttf);
+}
+
+:root {
+  margin: 0;
+}
+
+.App {
+  font-family: 'HankenGrotesk' Arial, Helvetica, sans-serif;
+  background-color: gray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultContainer {
+  display: flex;
+  background-color: white;
+  width: 700px;
+  height: 430px;
+  border-radius: 1.8rem;
+}
+
+.resultLeft {
+  width: 50%;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 1.8rem;
+}
+
+.resultLeftContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+  font-family: 'HankenGrotesk';
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.resultLeftScoreContainer {
+  width:fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  aspect-ratio: 1/1;
+  padding: 2rem;
+  border-radius: 50%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.resultLeftBigScore {
+  margin: 0;
+  font-size: 4rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.resultLeftTotal {
+  color: hsl(241, 100%, 89%);
+  font-size: 18px;
+}
+
+.resultLeftResponse {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+}
+
+.resultLeftFeedback {
+  color: hsl(241, 100%, 89%);
+  font-size: 18px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.resultRight {
+  width:50%;
+  background: white;
+  border-radius: 1.8rem;
+}
