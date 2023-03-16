@@ -103,7 +103,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin: 24px 0;
+  margin: 16px 0 32px 0;
 }
 
 .resultRightAnalysis {
@@ -147,4 +147,20 @@
 .resultRightVisual {
   background-color: hsl(234, 85%, 45%, 0.11);
   color: hsl(234, 85%, 45%);
+}
+
+.continue {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 3rem;
+  font-family: 'HankenGrotesk Extra Bold';
+  font-size: 18px;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+}
+
+.continue:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  cursor: pointer;
 }

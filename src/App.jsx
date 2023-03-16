@@ -60,7 +60,7 @@ function App() {
                 </div>
               </div>
             </div>
-            
+            <button className="continue">Continue</button>
           </div>
         </div>
       </div>
