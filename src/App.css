@@ -28,7 +28,7 @@
   display: flex;
   background-color: white;
   width: 700px;
-  height: 430px;
+  height: 450px;
   border-radius: 1.8rem;
 }
 
@@ -87,4 +87,64 @@
   width:50%;
   background: white;
   border-radius: 1.8rem;
+}
+
+.resultRightContent {
+  font-family: 'HankenGrotesk';
+  padding: 1.8rem;
+}
+
+.resultRightHeader {
+  font-size: 20px;
+  font-family: 'HankenGrotesk Bold';
+}
+
+.resultRightAnalysisContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.resultRightAnalysis {
+  width: 90%;
+  display: flex;
+  gap: 12px;
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+
+.resultRightScoreContainer {
+  float: right;
+  display: flex;
+  gap: 4px;
+  margin-left: auto
+}
+
+.resultRightScore {
+  color: hsl(224, 30%, 27%);
+}
+
+.resultRightTotal {
+  color: hsl(241, 100%, 89%);
+}
+
+.resultRightReaction {
+  background-color: hsla(0, 96%, 67%, 0.11);
+  color: hsl(0, 100%, 67%);
+}
+
+.resultRightMemory {
+  background-color: hsl(39, 100%, 56%, 0.11);
+  color: hsl(39, 100%, 56%);
+}
+
+.resultRightVerbal {
+  background-color: hsl(166, 100%, 37%, 0.11);
+  color: hsl(166, 100%, 37%);
+}
+
+.resultRightVisual {
+  background-color: hsl(234, 85%, 45%, 0.11);
+  color: hsl(234, 85%, 45%);
 }
