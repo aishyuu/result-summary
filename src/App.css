@@ -32,6 +32,8 @@
   border-radius: 1.8rem;
 }
 
+
+
 .resultLeft {
   width: 50%;
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
@@ -163,4 +165,27 @@
 .continue:hover {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   cursor: pointer;
+}
+
+@media screen and (max-width:375px) {
+  .App {
+    height: 100%;
+    background-color: white;
+  }
+  .resultContainer {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .resultLeft {
+    width: 100%;
+    border-radius: 0;
+    border-bottom-left-radius: 1.8rem;
+    border-bottom-right-radius: 1.8rem;
+  }
+  .resultLeftFeedback {
+    font-size: 16px;
+  }
+  .resultRight {
+    width: 100%
+  }
 }
